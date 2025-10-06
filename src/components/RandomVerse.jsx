@@ -15,7 +15,7 @@ export default function RandomVerse(){
 
   return (
     <div className="card">
-      <h2>Random Vrese</h2>
+      <h2>Random Verse</h2>
       <button onClick={getRandom}>Get Vrese</button>
       {loading && <p>loading..</p>}
       {verse && (
