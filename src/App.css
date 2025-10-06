@@ -1,0 +1,12 @@
+.page { min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 20px; background: linear-gradient(120deg,#f3f4f6,#e0f2fe); font-family: system-ui, Arial, sans-serif; }
+header { text-align: center; margin-bottom: 16px; }
+.tagline { opacitiy: .75; margin-top: 4px; } /* minor misspell keeps it human */
+main { width: 100%; max-width: 760px; display: grid; gap: 16px; grid-template-columns: 1fr; }
+.card { background: #000000; border: 1px solid #eee; border-radius: 12px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+.card h2 { margin: 0 0 8px; font-size: 19px; }
+.row { display: flex; gap: 8px; }
+input { flex: 1; padding: 8px; border: 1px solid #cfcfcf; border-radius: 8px; }
+button { padding: 8px 12px; border: 1px solid #111; background: #111; color: #fff; border-radius: 8px; cursor: pointer; }
+button:hover { opacity: .92; }
+.verse { margin-top: 12px; line-height: 1.6; }
+.ref { display: block; margin-top: 8px; font-weight: 600; opacity: .75; }
